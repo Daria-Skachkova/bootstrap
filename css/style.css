@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
+body {
+    color: #111;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: #111;
+    text-decoration: none;
+}
+
+.navigation-button {
+    border: 4px solid #111;
+    background-color: #111;
+    color: white;
+}
+.toggler-button {
+    background-color: white;
+    height: 30px;
+    width: 30px;
+}
+.toggler-button > span {
+    background-color: #111;
+    height: 1px;
+    width: 20px;
+}
+
+.navigation-button:hover {
+    color: white;
+    background-color: #525252;
+    border: 4px solid #525252;
+}
+
+.home-button {
+    color: white;
+    background-color: coral;
+    border-color: lightcoral;
+}
+
+.home-description {
+    color: #525252;
+    line-height: 1.5;
+}
+.features {
+    background-color: #525252;
+    color: white;
+}
+.card{
+    background-color: #525252;
+    border-color:transparent;
+}
+.pricing .card {
+    color: #111;
+    background-color: white;
+}
+footer {
+    background-color: #525252;
+    color: white;
+}
+.subscribe-button {
+    color: white;
+    background-color: coral;
+    border-color: lightcoral;
+}
+.label-footer {
+    font-size: 20px;
+}
+.footer-description {
+    font-size: 16px;
+}
